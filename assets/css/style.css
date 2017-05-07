@@ -1,0 +1,40 @@
+* {
+
+background-color: black;
+
+}
+
+.header{ 
+
+
+text-align: center;
+
+ }
+
+h1,  h2, h3 {
+
+	color: white;
+}
+
+
+
+.col-md-7 {
+
+text-align: center;
+
+
+}
+
+
+.col-md-5 {
+
+text-align: center;
+
+
+}
+
+.col-md-2 {
+
+text-align: center;
+
+}

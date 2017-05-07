@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Super Hero Collector Game</title>
+	<meta charset="UTF-8">
+
+	<!--CSS-->
+	<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+	
+
+</head>
+
+<body>
+
+ <div class = "header">
+<h1>The Super Hero Collector Game<h1>
+</div>
+
+
+
+		<div class="row">
+			<div class="col-md-5">
+			
+				<h3>You will be given a random number at the start of the game.
+                 There are four Super Hereos below. By clicking on a Super Hero you will add a specific amount of points to your total score.
+				You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.
+				The value of each Super Hero is hidden from you until you click on it.
+				Each time the game starts, the game will change the value of each Super Hero. </h3>
+				
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-5 ">
+				<h2 style="font-size: 30px; margin: 40px 0">
+				Match:
+<span id="numToMatch" style="font-size: 30px; color: blue;"></span>
+</h2>
+
+
+
+
+			</div>
+			<div class="col-md-2">
+				<h2>Wins: <span id="wins" style="color:green">0</span><br />Losses: <span id="losses"style="color:red">0</span></h2>
+
+
+				<br>
+				<br>
+
+<button id="reset" style="color:white" >Reset Game</button>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-7 text-center">
+				<h1>Super Hero Count: <span id="total" style="color:blue">0</span></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5"><span class="superherovault"></span></div>
+		</div>
+		<div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+
+				<div class="text-center">
+					<span id="superman"><img src="assets/images/superman.png"/></span>
+					<span id="flash"><img src="assets/images/flash.png" /></span>
+					<span id="captainamerica"><img src="assets/images/captainamerica.png" /></span>
+					<span id="batman"><img src="assets/images/batman.png" /></span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+    	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
