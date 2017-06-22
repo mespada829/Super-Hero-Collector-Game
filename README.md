@@ -1,4 +1,4 @@
-<b>Super Hero Collector Game built with jQuery</b>
+# Super Hero Collector Game built with jQuery
 
 <strong> Quick Game Description:</strong>
 <br>
